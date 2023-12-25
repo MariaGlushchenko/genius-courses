@@ -1,0 +1,26 @@
+:root{
+--color-primery-light:#FFFFFF;
+--color-primery-dark:#011C44;
+--color-brend:#2B7FFF ;
+}
+
+
+.button {
+    color:var(--color-primery-light);
+    background-color: var(--color-brend);
+    border: 2px solid var(--color-brend);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    color: var(--color-brend);
+    background-color: transparent;
+}
+button:focus{
+    color: var(--color-brend);
+        background-color:pink;
+}
+
+.section-titel{
+    color: var(--color-primery-dark);
+}
